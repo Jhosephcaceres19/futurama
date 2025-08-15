@@ -1,6 +1,6 @@
 import { api } from "../api/api";
 
-export const characters = async () => {
+export const getCharacters = async () => {
   const { data } = await api.get("/");
   return data;
 };
