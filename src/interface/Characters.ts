@@ -5,5 +5,5 @@ export type Character = {
   readonly status?: string;
   readonly species?: string;
   readonly createdAt?: Date;
-  readonly image?: string;
+  readonly image?: string | null;
 };
